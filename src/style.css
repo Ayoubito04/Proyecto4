@@ -17,15 +17,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family: monospace
 }
 body{
     font-family: var(--font-family);
     font-size: var(--font-size);
     background-color: var(--background-color);
     line-height: 1.6;
-    min-height: 100vh;
-
+    
    
 }
 header{
@@ -72,3 +71,8 @@ header a:hover{
 header button:hover{
     background-color: var(--primary-color);
 }   
+main{
+    padding: var(--padding);
+    margin: var(--margin);
+   
+}
