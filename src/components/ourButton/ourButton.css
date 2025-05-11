@@ -1,0 +1,23 @@
+.ourButton_circle {
+  display: flex;
+    justify-content: center;
+    
+
+}
+.ourButton_circle:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.ourButton_circle img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.ourButton_circle:hover img{
+    transform: scale(1.1);
+}
+.ourButton_circle a{
+    text-decoration: none;
+    color: #333;
+}
