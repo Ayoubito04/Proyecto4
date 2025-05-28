@@ -1,4 +1,4 @@
-import "./OurButton.css";
+import "./ourButton.css";
 
 export const OurButton=(text,logo)=>{
     const button=document.createElement('button');
